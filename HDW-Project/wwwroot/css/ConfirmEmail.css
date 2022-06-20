@@ -1,0 +1,89 @@
+﻿body {
+    background: linear-gradient(123deg, #1621c8, #dbdf2f, #d9261c);
+    background-size: 600% 600%;
+    -webkit-animation: bg-ce-color 8s ease infinite;
+    -moz-animation: bg-ce-color 8s ease infinite;
+    -o-animation: bg-ce-color 8s ease infinite;
+    animation: bg-ce-color 8s ease infinite;
+    padding-top: var(--bs-gutter-x,17rem);
+    padding-right: var(--bs-gutter-x,0rem);
+    padding-left: var(--bs-gutter-x,28rem);
+    padding-bottom: var(--bs-gutter-x,17rem);
+}
+
+@-webkit-keyframes bg-ce-color {
+    0% {
+        background-position: 0% 23%
+    }
+
+    50% {
+        background-position: 100% 78%
+    }
+
+    100% {
+        background-position: 0% 23%
+    }
+}
+
+@-moz-keyframes bg-ce-color {
+    0% {
+        background-position: 0% 23%
+    }
+
+    50% {
+        background-position: 100% 78%
+    }
+
+    100% {
+        background-position: 0% 23%
+    }
+}
+
+@-o-keyframes bg-ce-color {
+    0% {
+        background-position: 0% 23%
+    }
+
+    50% {
+        background-position: 100% 78%
+    }
+
+    100% {
+        background-position: 0% 23%
+    }
+}
+
+@keyframes bg-ce-color {
+    0% {
+        background-position: 0% 23%
+    }
+
+    50% {
+        background-position: 100% 78%
+    }
+
+    100% {
+        background-position: 0% 23%
+    }
+}
+
+#mycopyright a {
+    position: absolute;
+    left: -42rem;
+    transition: 0.3s;
+    padding: 15px;
+    width: 47rem;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+    #mycopyright a:hover {
+        left: 0;
+    }
+
+#copyright {
+    bottom: 3rem;
+    background-color: rgba(39, 39, 39, 0.377)
+}

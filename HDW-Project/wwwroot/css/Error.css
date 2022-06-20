@@ -1,0 +1,89 @@
+﻿body {
+    background: linear-gradient(1deg, #000000, #ffffff, #000000, #ffffff, #000000);
+    background-size: 1000% 1000%;
+    -webkit-animation: bg-privacy-color 0.5s ease infinite;
+    -moz-animation: bg-privacy-color 0.5s ease infinite;
+    -o-animation: bg-privacy-color 0.5s ease infinite;
+    animation: bg-privacy-color 0.5s ease infinite;
+    padding-top: var(--bs-gutter-x,9rem);
+    padding-right: var(--bs-gutter-x,11rem);
+    padding-left: var(--bs-gutter-x,11rem);
+    padding-bottom: var(--bs-gutter-x,9rem);
+}
+
+@-webkit-keyframes bg-privacy-color {
+    0% {
+        background-position: 50% 0%
+    }
+
+    50% {
+        background-position: 51% 100%
+    }
+
+    100% {
+        background-position: 50% 0%
+    }
+}
+
+@-moz-keyframes bg-privacy-color {
+    0% {
+        background-position: 50% 0%
+    }
+
+    50% {
+        background-position: 51% 100%
+    }
+
+    100% {
+        background-position: 50% 0%
+    }
+}
+
+@-o-keyframes bg-privacy-color {
+    0% {
+        background-position: 50% 0%
+    }
+
+    50% {
+        background-position: 51% 100%
+    }
+
+    100% {
+        background-position: 50% 0%
+    }
+}
+
+@keyframes bg-privacy-color {
+    0% {
+        background-position: 50% 0%
+    }
+
+    50% {
+        background-position: 51% 100%
+    }
+
+    100% {
+        background-position: 50% 0%
+    }
+}
+
+#mycopyright a {
+    position: absolute;
+    left: -42rem;
+    transition: 0.3s;
+    padding: 15px;
+    width: 47rem;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 0 5px 5px 0;
+}
+
+    #mycopyright a:hover {
+        left: 0;
+    }
+
+#copyright {
+    bottom: 3rem;
+    background-color: rgb(255, 255, 255)
+}

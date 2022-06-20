@@ -1,0 +1,89 @@
+﻿body {
+    background: linear-gradient(121deg, #df3c3c, #d535c8, #3c55db);
+    background-size: 600% 600%;
+    -webkit-animation: bg-logout-color 8s ease infinite;
+    -moz-animation: bg-logout-color 8s ease infinite;
+    -o-animation: bg-logout-color 8s ease infinite;
+    animation: bg-logout-color 8s ease infinite;
+    padding-top: var(--bs-gutter-x,18rem);
+    padding-right: var(--bs-gutter-x,19rem);
+    padding-left: var(--bs-gutter-x,19rem);
+    padding-bottom: var(--bs-gutter-x,18rem);
+}
+
+@-webkit-keyframes bg-logout-color {
+    0% {
+        background-position: 0% 87%
+    }
+
+    50% {
+        background-position: 100% 14%
+    }
+
+    100% {
+        background-position: 0% 87%
+    }
+}
+
+@-moz-keyframes bg-logout-color {
+    0% {
+        background-position: 0% 87%
+    }
+
+    50% {
+        background-position: 100% 14%
+    }
+
+    100% {
+        background-position: 0% 87%
+    }
+}
+
+@-o-keyframes bg-logout-color {
+    0% {
+        background-position: 0% 87%
+    }
+
+    50% {
+        background-position: 100% 14%
+    }
+
+    100% {
+        background-position: 0% 87%
+    }
+}
+
+@keyframes bg-logout-color {
+    0% {
+        background-position: 0% 87%
+    }
+
+    50% {
+        background-position: 100% 14%
+    }
+
+    100% {
+        background-position: 0% 87%
+    }
+}
+
+#mycopyright a {
+    position: absolute;
+    left: -42rem;
+    transition: 0.3s;
+    padding: 15px;
+    width: 47rem;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+    #mycopyright a:hover {
+        left: 0;
+    }
+
+#copyright {
+    bottom: 3rem;
+    background-color: rgba(39, 39, 39, 0.377)
+}

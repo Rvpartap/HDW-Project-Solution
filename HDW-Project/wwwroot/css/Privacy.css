@@ -1,0 +1,99 @@
+﻿.talking {
+    width: 80rem;
+    color: white;
+}
+
+body {
+    background: linear-gradient(92deg, #1bb003, #f5f5f1, #e61e13);
+    background-size: 600% 600%;
+    -webkit-animation: bg-privacy-con-miky-color 8s ease infinite;
+    -moz-animation: bg-privacy-con-miky-color 8s ease infinite;
+    -o-animation: bg-privacy-con-miky-color 8s ease infinite;
+    animation: bg-privacy-con-miky-color 8s ease infinite;
+    padding-top: var(--bs-gutter-x,3.50rem);
+    padding-right: var(--bs-gutter-x,1rem);
+    padding-left: var(--bs-gutter-x,3.20rem);
+    padding-bottom: var(--bs-gutter-x,1rem);
+}
+
+@-webkit-keyframes bg-privacy-con-miky-color {
+    0% {
+        background-position: 0% 51%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 51%
+    }
+}
+
+@-moz-keyframes bg-privacy-con-miky-color {
+    0% {
+        background-position: 0% 51%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 51%
+    }
+}
+
+@-o-keyframes bg-privacy-con-miky-color {
+    0% {
+        background-position: 0% 51%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 51%
+    }
+}
+
+@keyframes bg-privacy-con-miky-color {
+    0% {
+        background-position: 0% 51%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 51%
+    }
+}
+
+.world-float {
+    height: 38vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.floating-miky {
+    transform: translateX(-80%);
+    animation: fly 10s infinite;
+    transition: ease 5s;
+}
+
+@keyframes fly {
+    0% {
+        transform: translateX(-80%);
+        transition: ease 5s;
+    }
+
+    50% {
+        transform: translateX(80%);
+        transition: ease 5s;
+    }
+}

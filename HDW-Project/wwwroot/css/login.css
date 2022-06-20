@@ -1,0 +1,89 @@
+﻿body {
+    background: linear-gradient(270deg, #a422e0, #e027e0, #db267b);
+    background-size: 600% 600%;
+    -webkit-animation: bg-log-color 8s ease infinite;
+    -moz-animation: bg-log-color 8s ease infinite;
+    -o-animation: bg-log-color 8s ease infinite;
+    animation: bg-log-color 8s ease infinite;
+    padding-top: var(--bs-gutter-x,3.40rem);
+    padding-right: var(--bs-gutter-x,13.50rem);
+    padding-left: var(--bs-gutter-x,13.50rem);
+    padding-bottom: var(--bs-gutter-x,3.40rem);
+}
+
+    @-webkit-keyframes bg-log-color {
+        0% {
+            background-position: 0% 50%
+        }
+
+        50% {
+            background-position: 100% 51%
+        }
+
+        100% {
+            background-position: 0% 50%
+        }
+    }
+
+    @-moz-keyframes bg-log-color {
+        0% {
+            background-position: 0% 50%
+        }
+
+        50% {
+            background-position: 100% 51%
+        }
+
+        100% {
+            background-position: 0% 50%
+        }
+    }
+
+    @-o-keyframes bg-log-color {
+        0% {
+            background-position: 0% 50%
+        }
+
+        50% {
+            background-position: 100% 51%
+        }
+
+        100% {
+            background-position: 0% 50%
+        }
+    }
+
+    @keyframes bg-log-color {
+        0% {
+            background-position: 0% 50%
+        }
+
+        50% {
+            background-position: 100% 51%
+        }
+
+        100% {
+            background-position: 0% 50%
+        }
+    }
+
+    #mycopyright a {
+    position: absolute;
+    left: -42rem;
+    transition: 0.3s;
+    padding: 15px;
+    width: 47rem;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+    #mycopyright a:hover {
+        left: 0;
+    }
+
+#copyright {
+    bottom: 3rem;
+    background-color: rgba(39, 39, 39, 0.377)
+}

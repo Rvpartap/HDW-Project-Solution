@@ -1,0 +1,28 @@
+﻿@page
+@model RegisterConfirmationModel
+@{
+    ViewData["Title"] = "Conferma la Registrazione";
+}
+
+<link rel="stylesheet" href="~/css/RegisterConfirmation.css" />
+<body>
+    <main style="background-color: rgb(250, 250, 250); width: 56rem; height: 10rem; border-radius: 2rem; box-shadow: 0px 0px 20px 20px #00000050">
+        <form style="padding: 30px 40px 30px 35px; position: relative; width: 57rem;">
+            @{
+                if (Model.DisplayConfirmAccountLink)
+                {
+                    <h5>Questa app non ha attualmente un vero mittente di posta elettronica registrato, vedi <a href="https://aka.ms/aspaccountconf">queste guide</a> per come configurare un vero e proprio mittente di posta elettronica.</h5>
+                    <h5>Normalmente questo verrebbe inviato via E-Mail: Clicca <a id="confirm-link" href="@Model.EmailConfirmationUrl"><b>QUI</b></a> per confermare la tua E-Mail!</h5>
+                }
+                else
+                {
+                    <br />
+                    <h3 style="font-size: 26px;"><i class="fa-solid fa-envelope fa-xl"></i> &nbsp; Controlla la tua E-Mail per confermare il tuo account!</h3>
+                }
+            }
+        </form>
+        <div id="mycopyright">
+            <a href="#" style="text-decoration: none;" id="copyright">CopyRight 2022 - HowDataWork.it - Rathour Vinay Partap Singh &nbsp; &nbsp; <i class="fa-solid fa-copyright fa-lg"></i>&nbsp;</a>
+        </div>
+    </main>
+</body>

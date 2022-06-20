@@ -1,0 +1,26 @@
+﻿@page
+@model ErrorModel
+@{
+    ViewData["Title"] = "System Error";
+}
+
+<link rel="stylesheet" href="~/css/Error.css" />
+<body>
+    <main style="background-color: rgb(250, 250, 250); width: 75rem; height: 26rem; border-radius: 2rem; box-shadow: 0px 0px 20px 20px #00000050">
+        <form style="padding: 30px 40px 30px 35px; position: relative; width: 75rem;">
+            <h1 class="text-danger" style="padding-bottom: 5px;">Errore!!</h1>
+            <h2 class="text-danger" style="padding-bottom: 5px;">Si è verificato un errore durante l'elaborazione della richiesta.</h2>
+            @if (Model.ShowRequestId)
+            {
+                <h3 style="padding-bottom: 5px;"><strong>Richiesta ID:</strong>&nbsp;<code>@Model.RequestId</code></h3>
+            }
+            <h4 style="padding-bottom: 5px;">Development Mode</h4>
+            <h6 style="padding-bottom: 5px;">Swapping to the <strong>Development</strong> environment displays detailed information about the error that occurred.</h6>
+            <h6 style="padding-bottom: 5px;"><strong>The Development environment shouldn't be enabled for deployed applications.</strong> It can result in displaying sensitive information from exceptions to end users. For local debugging, enable the <strong>Development</strong> environment by setting the <strong>ASPNETCORE_ENVIRONMENT</strong> environment variable to <strong>Development</strong> and restarting the app.</h6>
+            <h5 style="padding-bottom: 10px;">Clicca per tornare alla <a href="Index" style="text-decoration: none;"><kbd>Pagina Home</kbd></a></h5>
+        </form>
+        <div id="mycopyright">
+            <a href="#" style="text-decoration: none;" id="copyright">CopyRight 2022 - HowDataWork.it - Rathour Vinay Partap Singh &nbsp; &nbsp; <i class="fa-solid fa-copyright fa-lg"></i>&nbsp;</a>
+        </div>
+    </main>
+</body>

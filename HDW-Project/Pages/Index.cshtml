@@ -1,0 +1,95 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Pagina Home";
+}
+
+<script src="https://cdn.websitepolicies.io/lib/cookieconsent/cookieconsent.min.js" defer></script><script>window.addEventListener("load", function () { window.wpcc.init({ "border": "normal", "colors": { "popup": { "background": "#FBFBFB", "text": "#000000", "border": "#000000" }, "button": { "background": "#0072D0", "text": "#FFFFFF" } }, "position": "top-left", "corners": "small", "margin": "small", "padding": "small", "content": { "message": "Questo sito web utilizza i cookie per assicurarti la migliore esperienza.", "button": "Accetto i Cookie", "link": "Scopri di più" } }) });</script>
+<body style="background-image: url(img/Index-bg.jpg); background-size: cover; background-repeat: no-repeat; font-family: 'Roboto', sans-serif;">
+    <main class="text-white" style="float: right; width: 600px; padding-top: 20px; padding-bottom: 20px; text-align: center; align-items: center;">
+        <div id="title" class="title"></div>
+        <script src="js/Index.js" rel="js"></script>
+        <script type="text/javascript">
+            var app = document.getElementById('title');
+            var typewriter = new Typewriter(app, {
+                loop: true
+            });
+            typewriter
+                .typeString('HowDataWork.it')
+                .pauseFor(5000)
+                .deleteAll()
+                .start();
+        </script>
+        <style type="text/css">
+            .title {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 64px;
+                line-height: 75px;
+                color: #FFFFFF;
+                cursor: url(cursors/HDW-Index-cursor.cur), auto;
+            }
+        </style>
+        <br /><br />
+        <h4>Clicca su <kbd>Registrati</kbd> per sapere di più!</h4>
+        <br />
+        <h4>Se hai già un account registrato allora <kbd>Accedi</kbd></h4>
+        <br /><br />
+        <a href="~/identity/account/register" style="text-decoration: none;"><button id="register">Registrati</button></a>
+        <br /><br /><br /><br />
+        <a href="~/identity/account/login" style="text-decoration: none;"><button id="login">Accedi</button></a>
+        <style type="text/css">
+            #register {
+                width: 300px;
+                height: 80px;
+                background: linear-gradient(134deg, #6700A6 31.25%, #9600A3 100%);
+                box-shadow: 0px 10px 30px #000000;
+                border-radius: 50px;
+                font-size: 36px;
+                color: white;
+                cursor: url(cursors/HDW-Index-cursor.cur), auto;
+            }
+
+            #login {
+                width: 300px;
+                height: 80px;
+                background: linear-gradient(240deg, rgba(103, 0, 166, 0.3) 0%, rgba(150, 0, 163, 0.5) 100%);
+                box-shadow: 0px 10px 30px #000000;
+                border-radius: 50px;
+                font-size: 36px;
+                color: white;
+                cursor: url(cursors/HDW-Index-cursor.cur), auto;
+            }
+
+            #support a {
+                position: absolute;
+                left: -46.50rem;
+                transition: 0.3s;
+                padding: 15px;
+                width: 52rem;
+                text-decoration: none;
+                font-size: 20px;
+                color: white;
+                border-radius: 0 50px 50px 0;
+            }
+
+                #support a:hover {
+                    left: 0;
+                }
+
+            #miky {
+                bottom: 3rem;
+                background-color: rgba(0, 0, 0, 0.747)
+            }
+        </style>
+        <br /><br /><br /><br />
+        <footer style="bottom: 0;">
+            <h6>&copy; CopyRight 2022 - HowDataWork.it - Rathour Vinay Partap Singh</h6>
+            <br />
+            <h5><a href="Privacy" style="text-decoration: none; color: white; cursor: url(cursors/HDW-Index-cursor.cur), auto;">Termini di Servizio & Politica sulla Privacy</a></h5>
+        </footer>
+        <div id="support">
+            <a style="text-decoration: none; color: white; cursor: url(cursors/HDW-Index-cursor.cur), auto;" id="miky">Serve Supporto? Scrivimi qui: vinay.rathour@stu.fondazioneikaros.org &nbsp; &nbsp; <img src="img/Miky.png" alt="miky" style="width: 40px;">&nbsp; </a>
+        </div>
+    </main>
+</body>

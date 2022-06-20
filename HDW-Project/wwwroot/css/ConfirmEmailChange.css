@@ -1,0 +1,89 @@
+﻿body {
+    background: linear-gradient(68deg, #df22e1, #1bbad4, #1c4ad9);
+    background-size: 600% 600%;
+    -webkit-animation: bg-cec-color 8s ease infinite;
+    -moz-animation: bg-cec-color 8s ease infinite;
+    -o-animation: bg-cec-color 8s ease infinite;
+    animation: bg-cec-color 8s ease infinite;
+    padding-top: var(--bs-gutter-x,16rem);
+    padding-right: var(--bs-gutter-x,11rem);
+    padding-left: var(--bs-gutter-x,11rem);
+    padding-bottom: var(--bs-gutter-x,16rem);
+}
+
+@-webkit-keyframes bg-cec-color {
+    0% {
+        background-position: 0% 74%
+    }
+
+    50% {
+        background-position: 100% 27%
+    }
+
+    100% {
+        background-position: 0% 74%
+    }
+}
+
+@-moz-keyframes bg-cec-color {
+    0% {
+        background-position: 0% 74%
+    }
+
+    50% {
+        background-position: 100% 27%
+    }
+
+    100% {
+        background-position: 0% 74%
+    }
+}
+
+@-o-keyframes bg-cec-color {
+    0% {
+        background-position: 0% 74%
+    }
+
+    50% {
+        background-position: 100% 27%
+    }
+
+    100% {
+        background-position: 0% 74%
+    }
+}
+
+@keyframes bg-cec-color {
+    0% {
+        background-position: 0% 74%
+    }
+
+    50% {
+        background-position: 100% 27%
+    }
+
+    100% {
+        background-position: 0% 74%
+    }
+}
+
+#mycopyright a {
+    position: absolute;
+    left: -42rem;
+    transition: 0.3s;
+    padding: 15px;
+    width: 47rem;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+    #mycopyright a:hover {
+        left: 0;
+    }
+
+#copyright {
+    bottom: 3rem;
+    background-color: rgba(39, 39, 39, 0.377)
+}

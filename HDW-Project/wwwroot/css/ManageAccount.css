@@ -1,0 +1,89 @@
+﻿body {
+    background: linear-gradient(178deg, #ec5218, #eee7e4, #1ca30e);
+    background-size: 600% 600%;
+    -webkit-animation: bg-managepages-color 8s ease infinite;
+    -moz-animation: bg-managepages-color 8s ease infinite;
+    -o-animation: bg-managepages-color 8s ease infinite;
+    animation: bg-managepages-color 8s ease infinite;
+    padding-top: var(--bs-gutter-x,3.50rem);
+    padding-right: var(--bs-gutter-x,1rem);
+    padding-left: var(--bs-gutter-x,6.30rem);
+    padding-bottom: var(--bs-gutter-x,1rem);
+}
+
+@-webkit-keyframes bg-managepages-color {
+    0% {
+        background-position: 7% 0%
+    }
+
+    50% {
+        background-position: 94% 100%
+    }
+
+    100% {
+        background-position: 7% 0%
+    }
+}
+
+@-moz-keyframes bg-managepages-color {
+    0% {
+        background-position: 7% 0%
+    }
+
+    50% {
+        background-position: 94% 100%
+    }
+
+    100% {
+        background-position: 7% 0%
+    }
+}
+
+@-o-keyframes bg-managepages-color {
+    0% {
+        background-position: 7% 0%
+    }
+
+    50% {
+        background-position: 94% 100%
+    }
+
+    100% {
+        background-position: 7% 0%
+    }
+}
+
+@keyframes bg-managepages-color {
+    0% {
+        background-position: 7% 0%
+    }
+
+    50% {
+        background-position: 94% 100%
+    }
+
+    100% {
+        background-position: 7% 0%
+    }
+}
+
+#mycopyright a {
+    position: absolute;
+    left: -42rem;
+    transition: 0.3s;
+    padding: 15px;
+    width: 47rem;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+    #mycopyright a:hover {
+        left: 0;
+    }
+
+#copyright {
+    bottom: 3rem;
+    background-color: rgba(39, 39, 39, 0.377)
+}
